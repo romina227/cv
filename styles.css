@@ -1,0 +1,75 @@
+/* Diseño General y Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 100px; /* Tamaño ajustado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Tipografía y Colores */
+h1, h2, h3 {
+    color: #333;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Estilos para Responsividad */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .profile-image {
+        width: 80px; /* Ajustar tamaño para pantallas pequeñas */
+    }
+
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+}
