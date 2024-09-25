@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Montserrat:wght@700&display=swap" rel="stylesheet"> <!-- Fuentes de Google -->
+</head>
+<body>
+    <header>
+        <img src="C:\Users\ASUS\Mi unidad\CURSOS\Desarrollo Web\CV html\Imagen de WhatsApp 2024-07-30 a las 14.41.30_c68cc0cf.jpg" alt="Imagen de perfil" class="profile-image"> <!-- Agrega la imagen aquí -->
+        <h1>Romina Pérez</h1>
+        <button id="theme-toggle">Cambiar Tema</button> <!-- Botón para cambiar el tema -->
+    </header>
+
+    <section>
+        <h2>Educación</h2>
+        <h3>Universidad Nacional de Asunción - Ingeniería Informática</h3>
+        <p>Segundo año (2022 - Presente)</p>
+
+        <h3>Bootcamp de Desarrollo Web</h3>
+        <p>- Presente</p>
+
+        <h3>Cursos de Análisis de Datos - Google</h3>
+        <p>- Presente</p>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <h3>Agente de Viajes - SunshineViajes</h3>
+        <p>2017 - 2020</p>
+        <ul>
+            <li>Reserva y seguimiento de vuelos con sistema AMADEUS.</li>
+            <li>ATC y resolución de problemas.</li>
+            <li>Asesoramiento a clientes.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Habilidades duras</h2>
+        <ul>
+            <li>Lenguajes de programación: Python, C, Java (nivel básico)</li>
+            <li>Desarrollo web: HTML, CSS, JavaScript, Django (aprendizaje en curso)</li>
+            <li>Análisis de datos: bases de datos, visualización de datos, recolección de datos (en curso)</li>
+            <li>Inglés: nivel avanzado</li>
+        </ul>
+        <h2>Habilidades blandas</h2>
+        <ul>
+            <li>Comunicación efectiva</li>
+            <li>Trabajo en equipo</li>
+            <li>Resolución de problemas</li>
+            <li>Interpretación de datos</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Información de Contacto</h2>
+        <div class="contact-info">
+            <p>Email: rominagaona04@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Visita mi GitHub: <a href="https://github.com/romina227" target="_blank">romina227</a></p>
+    </footer>
+
+    <script>
+        // JavaScript para cambiar el tema
+        const button = document.getElementById('theme-toggle');
+        button.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+        });
+    </script>
+</body>
+</html>
