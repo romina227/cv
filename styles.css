@@ -87,7 +87,6 @@ ul li {
 .profile-image {
     width: 100px; /* Ajusta el tamaño según lo desees */
     height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 50%; /* Hace que la imagen sea circular */
     display: block;
     margin: 0 auto; /* Centra la imagen */
 }
